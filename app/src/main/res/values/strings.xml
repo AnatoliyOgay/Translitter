@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Translitter</string>
+    <string name="title_splash">Title</string>
+    <string name="designed_by_anatoliy_ogay">Designed by Anatoliy Ogay</string>
+</resources>

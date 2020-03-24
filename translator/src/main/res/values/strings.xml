@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Translitter</string>
+    <string name="textConvert">Translate</string>
+    <string name="translator">Translator</string>
+    <string name="en">en</string>
+    <string name="ru">ru</string>
+    <string name="translate">Translate</string>
+    <string name="translate_rus">Перевод</string>
+</resources>

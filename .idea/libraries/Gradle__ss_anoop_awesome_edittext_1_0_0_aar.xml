@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: ss.anoop:awesome-edittext:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bab9e4f2ff9b4da250c5f278c9c4e2fd/jetified-awesome-edittext-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bab9e4f2ff9b4da250c5f278c9c4e2fd/jetified-awesome-edittext-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ss.anoop/awesome-edittext/1.0.0/bdd5c39b35a8813576cd90dbb5cde84475505131/awesome-edittext-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ss.anoop/awesome-edittext/1.0.0/8dc0fe538ccab3285155420315938fa5cf702b26/awesome-edittext-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

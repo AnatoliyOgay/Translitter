@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Translitter</string>
+    <string name="textConvert">Translit</string>
+    <string name="delete_all">Delete_all</string>
+    <string name="title_features">Features</string>
+    <string name="features_image">features_image</string>
+    <string name="main_image">main_image</string>
+    <string name="add_features">add_features</string>
+    <string name="text_latinic">Латиница</string>
+    <string name="hint_enter_text">Введите текст на казахском языке</string>
+    <string name="text_cyrillic">Кириллица</string>
+    <string name="open_translator">open_translator</string>
+    <string name="remove">remove</string>
+</resources>

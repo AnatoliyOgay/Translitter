@@ -1,0 +1,5 @@
+rootProject.name='Translitter'
+include ':app'
+include ':common'
+include ':translator'
+include ':converter'

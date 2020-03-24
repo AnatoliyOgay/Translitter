@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/translator"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <ss.anoop.awesomeedittext.AwesomeEditText
+        android:id="@+id/et_entered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customborder"
+        android:ems="10"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/rg_entered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:checkedButton="@id/rb_ru_entered"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_en_entered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/en" />
+
+        <RadioButton
+            android:id="@+id/rb_ru_entered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ru" />
+    </RadioGroup>
+
+    <com.sanojpunchihewa.glowbutton.GlowButton
+        android:id="@+id/button_translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="@string/translate"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:buttonColor="@color/colorPrimary"
+        app:glowColor="@color/colorPrimaryDark"
+        app:pressedGlowSize="25dp"
+        app:unpressedGlowSize="15dp" />
+
+
+    <ScrollView
+        android:background="@drawable/customborder"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="150dp">
+        <TextView
+            android:id="@+id/tv_translated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/translate_rus"
+            android:textSize="14sp"/>
+    </ScrollView>
+
+</LinearLayout>
